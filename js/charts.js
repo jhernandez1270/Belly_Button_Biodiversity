@@ -123,6 +123,7 @@ function buildCharts(sample) {
     var trace1 = {
       x: topTen.reverse(),
       y: yticks.reverse(),
+      text: topTen_otu_labels.reverse(),
       name: "Samples",
       type: "bar",
       orientation: "h"
@@ -136,6 +137,7 @@ function buildCharts(sample) {
     };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
+
     
   });
 }
