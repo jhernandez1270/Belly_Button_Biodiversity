@@ -157,7 +157,7 @@ function buildCharts(sample) {
     var barData = [trace1];
 
 
-
+// No change to line 162. Creating comment to resubmit my commit
     // // 9. Create the layout for the bar chart.
     var barLayout = {
       title: "Top Ten Bacteria Cultures Found"
